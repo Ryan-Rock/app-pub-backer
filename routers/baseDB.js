@@ -1,8 +1,10 @@
 const mysql = require('mysql');
 var connection = mysql.createConnection({
-    host     : 'localhost',
+    host     : 'www.tutuzm.cn',
+    port: '3306',     
     user     : 'root',
-    password : '123456',
-    database : 'systest'
+    password : '1234',
+    database : 'commox' 
+                  
 });
 module.exports= connection
